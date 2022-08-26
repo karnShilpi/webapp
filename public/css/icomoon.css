@@ -1,0 +1,603 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file_upload:before {
+  content: "\e984";
+}
+.icon-folder:before {
+  content: "\e985";
+}
+.icon-label:before {
+  content: "\e983";
+}
+.icon-Filter:before {
+  content: "\e981";
+}
+.icon-home:before {
+  content: "\e982";
+}
+.icon-menu:before {
+  content: "\e980";
+}
+.icon-arrow_right:before {
+  content: "\e97e";
+}
+.icon-arrow_left:before {
+  content: "\e97f";
+}
+.icon-Delete_Account:before {
+  content: "\e923";
+}
+.icon-visibility_off:before {
+  content: "\e922";
+}
+.icon-visibility:before {
+  content: "\e921";
+}
+.icon-play_circle_outline:before {
+  content: "\e920";
+}
+.icon-dot-single:before {
+  content: "\e91f";
+}
+.icon-Arrow:before {
+  content: "\e90d";
+}
+.icon-Desktop:before {
+  content: "\e90e";
+}
+.icon-Desktop_failed:before {
+  content: "\e90f";
+}
+.icon-Desktop_successful:before {
+  content: "\e910";
+}
+.icon-Laptop:before {
+  content: "\e911";
+}
+.icon-Laptop_failed:before {
+  content: "\e912";
+}
+.icon-Laptop_Successfull:before {
+  content: "\e913";
+}
+.icon-Mobile:before {
+  content: "\e914";
+}
+.icon-Mobile_failed:before {
+  content: "\e915";
+}
+.icon-Mobile_successful:before {
+  content: "\e916";
+}
+.icon-Siccura:before {
+  content: "\e917";
+}
+.icon-Tablet:before {
+  content: "\e918";
+}
+.icon-Tablet_failed:before {
+  content: "\e919";
+}
+.icon-Tablet_successful:before {
+  content: "\e91a";
+}
+.icon-Logo_BG:before {
+  content: "\e90c";
+}
+.icon-add:before {
+  content: "\e90b";
+}
+
+.icon-list:before {
+  content: "\e901";
+}
+.icon-Active_Subscribers:before {
+  content: "\e902";
+ 
+}
+.icon-Buy_Packages:before {
+  content: "\e903";
+ 
+}
+.icon-graph:before {
+  content: "\e904";
+ 
+}
+.icon-info:before {
+  content: "\e905";
+ 
+}
+.icon-Log_Out:before {
+  content: "\e907";
+ 
+}
+.icon-user:before {
+  content: "\e908";
+ 
+}
+.icon-Set_Up_Vendors:before {
+  content: "\e909";
+ 
+}
+.icon-Total_Users:before {
+  content: "\e90a";
+ 
+}
+.icon-Forms:before {
+  content: "\e94c";
+ 
+}
+.icon-Site:before {
+  content: "\e94e";
+ 
+}
+.icon-Email:before {
+  content: "\e933";
+}
+.icon-more:before {
+  content: "\e91b";
+   
+}
+.icon-search:before {
+  content: "\e91c";
+ 
+}
+.icon-back:before {
+  content: "\e900";
+   
+}
+.icon-options:before {
+  content: "\e906";
+   
+}
+.icon-Share_Item:before {
+  content: "\e96b";
+ 
+}
+.icon-View:before {
+  content: "\e96f";
+ 
+}
+.icon-instantMessaget:before {
+  content: "\e931";
+}
+.icon-bank:before {
+  content: "\e84f";
+}
+.icon-drivingLicense:before {
+  content: "\e531";
+}
+.icon-socialSecurity:before {
+  content: "\e63f";
+}
+.icon-server:before {
+  content: "\e956";
+}
+.icon-generic:before {
+  content: "\e24d";
+}
+.icon-passport:before {
+  content: "\e80b";
+}
+.icon-wifiPassword:before {
+  content: "\e63e";
+}
+.icon-pull-refresh:before {
+  content: "\e5d5";
+}
+.icon-share:before {
+  content: "\e80d";
+}
+.icon-arrow_drop_up:before {
+  content: "\e91d";
+}
+.icon-arrow_drop_down:before {
+  content: "\e91e";
+}
+.icon-close:before {
+  content: "\e5cd";
+}
+.icon-expand_less:before {
+  content: "\e5ce";
+}
+.icon-expand_more:before {
+  content: "\e5cf";
+}
+.icon-person_add:before {
+  content: "\e7fe";
+}
+.icon-Modules:before {
+  content: "\e924"; 
+}
+.icon-Agreements:before {
+  content: "\e925"; 
+}
+.icon-Assessments:before {
+  content: "\e926"; 
+}
+.icon-Asset-Management:before {
+  content: "\e927"; 
+}
+.icon-Audit_Trail:before {
+  content: "\e928"; 
+}
+.icon-Awards--Recognition:before {
+  content: "\e929"; 
+}
+.icon-Billing:before {
+  content: "\e92a"; 
+}
+.icon-Calendar:before {
+  content: "\e92b"; 
+}
+.icon-Call-Centre:before {
+  content: "\e930"; 
+}
+.icon-Calls:before {
+  content: "\e932"; 
+}
+.icon-Checklist:before {
+  content: "\e934"; 
+}
+.icon-Cloud:before {
+  content: "\e935"; 
+}
+.icon-Community:before {
+  content: "\e936"; 
+}
+.icon-Contacts:before {
+  content: "\e937"; 
+}
+.icon-Coupons:before {
+  content: "\e938"; 
+}
+.icon-CRM:before {
+  content: "\e939"; 
+}
+.icon-Data-Rooms:before {
+  content: "\e93a"; 
+}
+.icon-Directory:before {
+  content: "\e93b"; 
+}
+.icon-Docs:before {
+  content: "\e93c"; 
+}
+.icon-Doodle:before {
+  content: "\e93d"; 
+}
+.icon-Drive:before {
+  content: "\e93e"; 
+}
+.icon-EDMS:before {
+  content: "\e93f"; 
+}
+.icon-Email_Attachments:before {
+  content: "\e940"; 
+}
+.icon-IM:before {
+  content: "\e941"; 
+}
+.icon-IM_Attachments:before {
+  content: "\e942"; 
+}
+.icon-Kocati:before {
+  content: "\e943"; 
+}
+.icon-LMS:before {
+  content: "\e944"; 
+}
+.icon-Logs:before {
+  content: "\e945"; 
+}
+.icon-Marketing-Manager:before {
+  content: "\e946"; 
+}
+.icon-Meetings:before {
+  content: "\e947"; 
+}
+.icon-My_welleness:before {
+  content: "\e948"; 
+}
+.icon-Network-Drive:before {
+  content: "\e949"; 
+}
+.icon-News:before {
+  content: "\e94a"; 
+}
+.icon-Notes:before {
+  content: "\e94b"; 
+}
+.icon-Notifications:before {
+  content: "\e94d"; 
+}
+.icon-Nyuna:before {
+  content: "\e94f"; 
+}
+.icon-Partners:before {
+  content: "\e950"; 
+}
+.icon-Password_manager:before {
+  content: "\e951"; 
+}
+.icon-Patch:before {
+  content: "\e952"; 
+}
+.icon-Photos:before {
+  content: "\e953"; 
+}
+.icon-Policies:before {
+  content: "\e954"; 
+}
+.icon-Privacy_Reset_Request_Sent:before {
+  content: "\e955"; 
+}
+.icon-Privacy_Reset_Requests_Received:before {
+  content: "\e957"; 
+}
+.icon-Prize-Draws:before {
+  content: "\e958"; 
+}
+.icon-Product-Manager:before {
+  content: "\e959"; 
+}
+.icon-Reminder:before {
+  content: "\e95a"; 
+}
+.icon-Scheduler:before {
+  content: "\e95b"; 
+}
+.icon-Scratch-Cards:before {
+  content: "\e95c"; 
+}
+.icon-SMS:before {
+  content: "\e95d"; 
+}
+.icon-SOPS:before {
+  content: "\e95e"; 
+}
+.icon-Surveys:before {
+  content: "\e95f"; 
+}
+.icon-Tasks:before {
+  content: "\e960"; 
+}
+.icon-Yourwellness-37:before {
+  content: "\e961"; 
+}
+.icon-About_Us:before {
+  content: "\e962"; 
+}
+.icon-Add_account:before {
+  content: "\e963"; 
+}
+.icon-App_language:before {
+  content: "\e964"; 
+}
+.icon-App_theme:before {
+  content: "\e965"; 
+}
+.icon-Backup_Account:before {
+  content: "\e966"; 
+}
+.icon-Backup_Key:before {
+  content: "\e967"; 
+}
+.icon-Customize:before {
+  content: "\e968"; 
+}
+.icon-Data_backup:before {
+  content: "\e969"; 
+}
+.icon-Delete_Account1:before {
+  content: "\e96a"; 
+}
+.icon-Display:before {
+  content: "\e96c"; 
+}
+.icon-Email_Setting:before {
+  content: "\e96d"; 
+}
+.icon-Family_Manager:before {
+  content: "\e96e"; 
+}
+.icon-Feedback:before {
+  content: "\e970"; 
+}
+.icon-General_Setting:before {
+  content: "\e971"; 
+}
+.icon-IM_setting:before {
+  content: "\e972"; 
+}
+.icon-My_accounts:before {
+  content: "\e973"; 
+}
+.icon-My_Recruiter:before {
+  content: "\e974"; 
+}
+.icon-Notification:before {
+  content: "\e975"; 
+}
+.icon-Online_Mode:before {
+  content: "\e977"; 
+}
+.icon-Partner:before {
+  content: "\e978"; 
+}
+.icon-Password_manager1:before {
+  content: "\e979"; 
+}
+.icon-Promotions:before {
+  content: "\e97a"; 
+}
+.icon-Setting:before {
+  content: "\e97b"; 
+}
+.icon-Siccura_Loyalty_points:before {
+  content: "\e97c"; 
+}
+.icon-Tell_A_friend:before {
+  content: "\e97d"; 
+}
+.icon-Delete_Account:before {
+  content: "\e923"; 
+}
+.icon-Arrow:before {
+  content: "\e90d"; 
+}
+.icon-Desktop:before {
+  content: "\e90e"; 
+}
+.icon-Desktop_failed:before {
+  content: "\e90f"; 
+}
+.icon-Desktop_successful:before {
+  content: "\e910"; 
+}
+.icon-Laptop:before {
+  content: "\e911"; 
+}
+.icon-Laptop_failed:before {
+  content: "\e912"; 
+}
+.icon-Laptop_Successfull:before {
+  content: "\e913"; 
+}
+.icon-Mobile:before {
+  content: "\e914"; 
+}
+.icon-Mobile_failed:before {
+  content: "\e915"; 
+}
+.icon-Mobile_successful:before {
+  content: "\e916"; 
+}
+.icon-Siccura:before {
+  content: "\e917"; 
+}
+.icon-Tablet:before {
+  content: "\e918"; 
+}
+.icon-Tablet_failed:before {
+  content: "\e919"; 
+}
+.icon-Tablet_successful:before {
+  content: "\e91a"; 
+}
+.icon-Logo_BG:before {
+  content: "\e90c"; 
+}
+.icon-list:before {
+  content: "\e901"; 
+}
+.icon-Active_Subscribers:before {
+  content: "\e902"; 
+}
+.icon-Buy_Packages:before {
+  content: "\e903"; 
+}
+.icon-graph:before {
+  content: "\e904"; 
+}
+.icon-info:before {
+  content: "\e905"; 
+}
+.icon-Log_Out:before {
+  content: "\e907"; 
+}
+.icon-user:before {
+  content: "\e908"; 
+}
+.icon-Set_Up_Vendors:before {
+  content: "\e909"; 
+}
+.icon-Total_Users:before {
+  content: "\e90a"; 
+}
+.icon-Forms:before {
+  content: "\e94c"; 
+}
+.icon-Site:before {
+  content: "\e94e"; 
+}
+.icon-Email:before {
+  content: "\e933";
+}
+.icon-more:before {
+  content: "\e91b"; 
+}
+.icon-search:before {
+  content: "\e91c"; 
+}
+.icon-back:before {
+  content: "\e900"; 
+}
+.icon-options:before {
+  content: "\e906"; 
+}
+.icon-Share_Item:before {
+  content: "\e96b"; 
+}
+.icon-View:before {
+  content: "\e96f"; 
+}
+.icon-dot-single:before {
+  content: "\e91f";
+}
+.icon-attach:before {
+  content: "\e9cd";
+}
+.icon-key:before {
+  content: "\e98d";
+}
+.icon-sshKey:before {
+  content: "\e976";
+}
+.icon-healthInsurance:before {
+  content: "\e998";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+}
+.icon-membership:before {
+  content: "\e92c";
+}
+.icon-insurance:before {
+  content: "\e92d";
+}
+.icon-database:before {
+  content: "\e92e";
+}
+.icon-creditCard:before {
+  content: "\e92f";
+}
+icon-Edit:before {
+  content: "\e929";
+}
+
+.icon-edit:before {
+  content: "\e914";
+}
+.icon-Edit1:before {
+  content: "\e962";
+}

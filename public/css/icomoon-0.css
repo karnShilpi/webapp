@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-add:before {
+  content: "\e145";
+}
+.icon-flag:before {
+  content: "\e153";
+}
+.icon-dehaze:before {
+  content: "\e3c7";
+}
+.icon-insert_invitation:before {
+  content: "\e24f";
+}
+.icon-event_available:before {
+  content: "\e614";
+}
+.icon-event_busy:before {
+  content: "\e615";
+}
+.icon-more_vert:before {
+  content: "\e5d4";
+}
+.icon-search:before {
+  content: "\e8b6";
+}
+.icon-today:before {
+  content: "\e8df";
+}
+.icon-touch_app:before {
+  content: "\e913";
+}
+
+.icon-view_day:before {
+  content: "\e8ed";
+}
+.icon-view_module:before {
+  content: "\e8f0";
+}
+.icon-view_stream:before {
+  content: "\e8f2";
+}
+.icon-view_week:before {
+  content: "\e8f3";
+}
+

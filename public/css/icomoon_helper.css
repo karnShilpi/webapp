@@ -1,0 +1,158 @@
+/* icomoon helper */
+
+
+.icon-lg {
+    font-size: 1.12em;
+    line-height: 0.5em;
+    vertical-align: -15%;
+}
+
+.icon-1x {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.icon-1-5x {
+	font-size: 1.5em;
+    line-height: 1em;
+    vertical-align: -15%;
+}
+
+.icon-1-7x {
+	font-size: 1.7em;
+    line-height: 1.1em;
+    vertical-align: -17%;
+}
+
+.icon-2x {
+	font-size: 2em;
+    line-height: 1.2em;
+    vertical-align: -20%;
+}
+
+.icon-3x {
+    font-size: 3em;
+	line-height: 1.5em;
+    vertical-align: -15%;
+}
+
+.icon-4x {
+    font-size: 4em;
+	line-height: 1.75em;
+    vertical-align: -15%;
+}
+
+.icon-5x {
+    font-size: 5em;
+	line-height: 1.75em;
+    vertical-align: -15%;
+}
+
+.icon-6x {
+    font-size: 6em;
+}
+
+.icon-7x {
+    font-size: 7em;
+}
+
+
+/*rotate icon*/
+
+.icon-spin {
+	display: inline-block;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-animation: icon-spin 2s infinite linear;
+	animation: icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.icon-iw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+
+.icon-spin-1s {
+	display: inline-block;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-animation: icon-spin 1s infinite linear;
+	animation: icon-spin 1s infinite linear;
+}
+
+@-webkit-keyframes icon-spin-1s {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes icon-spin-1s {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+.icon-spin-0_5s {
+	display: inline-block;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-animation: icon-spin 0.5s infinite linear;
+	animation: icon-spin 0.5s infinite linear;
+}
+
+@-webkit-keyframes icon-spin-0_5s {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes icon-spin-0_5s {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
